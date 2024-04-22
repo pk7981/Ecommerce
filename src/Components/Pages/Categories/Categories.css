@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ h1{
+    text-align: center;
+}
+.categories{
+    padding: 100px;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+img{
+    width: 350px;
+    height: 300px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    gap: 20px;
+}
+.sub-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.pro-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.items h2{
+    padding: 50px 20px;
+    color:green;
+}
+button{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+}
